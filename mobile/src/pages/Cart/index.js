@@ -82,7 +82,7 @@ export default function Cart() {
                       dispatch(CartActions.removeFromCart(product.id))
                     }
                   >
-                    <Icon name="delete-forever" size={24} color={'#7159c1'} />
+                    <Icon name="delete-forever" size={24} color={'#3949ab'} />
                   </ProductDelete>
                 </ProductInfo>
                 <ProductControls>
@@ -92,7 +92,7 @@ export default function Cart() {
                     <Icon
                       name="remove-circle-outline"
                       size={20}
-                      color={'#7159c1'}
+                      color={'#3949ab'}
                     />
                   </ProductControlButton>
                   <ProductQuantity value={String(product.amount)} />
@@ -102,7 +102,7 @@ export default function Cart() {
                     <Icon
                       name="add-circle-outline"
                       size={20}
-                      color={'#7159c1'}
+                      color={'#3949ab'}
                     />
                   </ProductControlButton>
                   <ProductSubTotal>

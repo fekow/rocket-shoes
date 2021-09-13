@@ -25,7 +25,7 @@ export const Logo = styled.Image.attrs({
 export const CartButtom = styled.TouchableOpacity``;
 
 export const ItemCount = styled.Text`
-  background: #7159c1;
+  background: #3949ab;
   position: absolute;
   top: 13px;
   right: 13px;

@@ -95,7 +95,7 @@ export const FinishCartButton = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background: #7159c1;
+  background: #3949ab;
   border-radius: 4px;
 `;
 

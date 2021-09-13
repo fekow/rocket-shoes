@@ -42,7 +42,7 @@ export const ButtonDiv = styled.View`
 export const PurchaseButton = styled.TouchableOpacity`
   border-radius: 4px;
   flex-direction: row;
-  background: #7159c1;
+  background: #3949ab;
   align-items: center;
   margin-top: auto;
 `;
